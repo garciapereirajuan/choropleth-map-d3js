@@ -1,16 +1,17 @@
-# Mapa coroplético como ejercicio con D3.js (en React)
+#### Mapa coroplético como ejercicio con D3.js (en React)
 
-## HTML, CSS, JS, ReactJS, D3.js
+##### HTML, CSS, JS, ReactJS, D3.js
 
-### Getting Started with Create React App
+#
+
+##### Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-### Available Scripts
+##### Available Scripts
 
 In the project directory, you can run:
 
-### `npm start`
+##### `npm install`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+##### `npm start`
