@@ -1,0 +1,86 @@
+.AppChoroplethMap {
+    background: #161a1d; 
+    color: #98c1d9;
+    min-width: 100vw;
+    min-height: 100vh;
+    overflow-y: hidden;
+}
+
+.AppChoroplethMap .map {
+    display: flex;
+    justify-content: center;
+}
+
+.AppChoroplethMap .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+    min-width: 100vw; 
+    min-height: 100vh;
+    text-align:center;
+    background: #161a1d; 
+    color: #98c1d9;
+    font-family: "helvetica";
+}
+  
+.AppChoroplethMap #heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 300px;
+    background: transparent;
+}
+  
+.AppChoroplethMap .county{
+    stroke-linejoin: round;   
+}
+  
+.AppChoroplethMap .states{
+    fill: none;
+    stroke-width: 1px;
+    stroke: #161a1d;
+    stroke-linejoin: round;
+    filter:drop-shadow(3px 3px 2.5px #000);
+}
+  
+.AppChoroplethMap #legend-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 10px 0 10px;
+    margin: 16px 0;
+    background: #cc2936;
+    border-radius: 10px;
+}
+  
+.AppChoroplethMap .tooltip rect{
+    filter:drop-shadow(10px 10px 4px #00000080);
+}
+
+@media (max-width: 960px){
+    .AppChoroplethMap .map {
+        display: flex;
+        justify-content: flex-start;
+    }
+}
+  
+@media (max-width: 1230px){
+    .AppChoroplethMap .container{
+      flex-direction: column-reverse;
+      min-width: 1000px;
+    }
+}
+@media (min-width: 1440px){
+    .AppChoroplethMap #heading{
+      width: 550px;
+      margin-right: 5%;
+    }
+}
+@media (max-width: 1500px){
+    .container {
+        transform: scale(.9);
+    }
+}
